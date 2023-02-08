@@ -1,0 +1,60 @@
+@use "../../styles/partials/global";
+@use "../../styles/partials/fonts";
+@use "../../styles/partials/colors" as cl;
+@use "../../styles/partials/breakpoints";
+
+.header {
+  display: flex;
+  flex-direction: column;
+  &__top {
+    height: 30px;
+    position: fixed;
+    width: 100vw;
+    background-color: cl.$base;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 0.75rem;
+    font-weight: 300;
+    gap: 0 13px;
+    padding: 0 11rem;
+    z-index: 1;
+
+    &__left {
+      justify-content: left;
+      width: 80%;
+      padding-left: 1rem;
+    }
+    &__right {
+      display: flex;
+      justify-content: right;
+      gap: 0.25rem;
+    }
+    &__text {
+      margin: auto 0;
+    }
+
+    &__link {
+      list-style-type: none;
+      list-style-type: none;
+      &:visited {
+        list-style-type: none;
+        list-style-type: none;
+        color: white;
+      }
+    }
+  }
+  &__bottom {
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+      margin: auto auto;
+      padding: 4.75rem 0 2.75rem 0;
+      color: cl.$base;
+      &:visited {
+        color: cl.$base;
+      }
+    }
+  }
+}

@@ -1,0 +1,123 @@
+@use "../../styles/partials/global";
+@use "../../styles/partials/fonts";
+@use "../../styles/partials/colors" as cl;
+@use "../../styles/partials/breakpoints";
+
+.main {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto auto;
+  margin-bottom: 5rem;
+
+  &__title {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 5rem 0;
+  }
+  &__hero {
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+    position: relative;
+
+    &__title {
+      display: flex;
+      justify-content: center;
+      font-size: 2rem;
+      margin: 5rem 0;
+    }
+    &__img {
+      width: 100%;
+      margin: auto auto;
+    }
+    &__textBox {
+      position: absolute;
+      z-index: 1;
+      bottom: 0rem;
+      background-color: #ffffffab;
+      width: 50%;
+      right: 0;
+      padding: 2rem;
+    }
+  }
+  &__search {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 1.5rem;
+    &__input {
+      width: 20rem;
+      position: relative;
+      height: 2rem;
+      position: relative;
+      border: 1px solid cl.$optionalBaseOne;
+      border-radius: 1.25rem;
+      padding: 0.8rem 1rem;
+      padding-left: 1rem;
+    }
+    &__icon {
+      display: flex;
+      position: absolute;
+      padding-right: 10px;
+      padding-top: 4.5px;
+    }
+  }
+  &__content {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    flex-wrap: wrap;
+
+    &__list {
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      &__img {
+        flex: 2;
+        position: relative;
+
+        img {
+          width: 100%;
+          height: 14rem;
+          object-fit: cover;
+          border-radius: 15px;
+        }
+      }
+      &__text {
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+    }
+
+    &__link {
+      text-decoration: none;
+    }
+  }
+  &__categoryPg {
+    display: flex;
+    align-items: baseline;
+    margin-top: 3rem;
+    gap: 50%;
+  }
+}
+.btns {
+  width: max-content;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  background-color: cl.$lightText;
+  border: 1px solid cl.$optionalAccent;
+  color: cl.$optionalAccent;
+
+  &:hover {
+    border: 1px solid cl.$lightText;
+    background-color: cl.$accent;
+    color: cl.$lightText;
+  }
+}

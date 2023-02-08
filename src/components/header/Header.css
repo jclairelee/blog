@@ -1,0 +1,159 @@
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_ExtraBold.otf") format("otf");
+  font-weight: extraBold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler Stencil";
+  src: url("../../assets/Butler-Font/Butler_Black_Stencil.otf") format("otf");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_Bold.otf") format("otf");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_Medium.otf") format("otf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_Regular.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler Stencil";
+  src: url("../../assets/Butler-Font/Butler_Regular_Stencil.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler Stencil";
+  src: url("../../assets/Butler-Font/Butler_Ultra_Light_Stencil.otf") format("otf");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_Ultra_Light.otf") format("otf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_Ultra_Light.otf") format("otf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Averta";
+  src: url("../../assets/sub_fonts/AvertaDemo-Regular.woff2") format("woff2"), url("../../assets/sub_fonts/AvertaDemo-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Averta";
+  src: url("../../assets/sub_fonts/AvertaDemo-ExtraBoldItalic.woff2") format("woff2"), url("../../assets/sub_fonts/AvertaDemo-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+*,
+*::after,
+*::before {
+  font-family: "Butler, Butler Stencil, Averta ";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+.header__top {
+  height: 30px;
+  position: fixed;
+  width: 100vw;
+  background-color: #0a0a0a;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 0.75rem;
+  font-weight: 300;
+  gap: 0 13px;
+  padding: 0 11rem;
+  z-index: 1;
+}
+.header__top__left {
+  justify-content: left;
+  width: 70%;
+  padding-left: 1rem;
+}
+.header__top__right {
+  display: flex;
+  justify-content: right;
+  gap: 0.25rem;
+}
+.header__top__text {
+  margin: auto 0;
+}
+.header__top__link {
+  list-style-type: none;
+  list-style-type: none;
+}
+.header__top__link:visited {
+  list-style-type: none;
+  list-style-type: none;
+  color: white;
+}
+.header__bottom {
+  display: flex;
+  flex-direction: column;
+}
+.header__bottom__title {
+  margin: auto auto;
+  padding: 4.75rem 0 2.75rem 0;
+  color: #0a0a0a;
+}
+.header__bottom__title:visited {
+  color: #0a0a0a;
+}/*# sourceMappingURL=Header.css.map */
