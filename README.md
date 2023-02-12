@@ -12,27 +12,6 @@
 
 ![ScreenShot](./public/foodandliving.jpg)
 
-## General Information
-
-- 3 tables
-  1. "comments", "posts", and "users" - in mySQL data.
-
-> table 1. comments
-
-- commentId(primary key), text, userID(foreign key), post ID(foreign key), createdAt, and updatedAt.
-
-* updatedAt is for sprint 2
-
-  > > > table 2. posts
-
-- postId(primary key), title, content, imgURL, category, date, and userID(foreign key)
-
-* updatedAt is for sprint 2
-
-  > > > table 3. Users
-
-- userId(primary key), username, email, password, and image
-
 ## Tech Used
 
 ### Frontend:
@@ -44,9 +23,7 @@
 - @mui/icons
 - axios
 
-### Backend:
-
-[Backend](https://github.com/jclairelee/Blog-api):
+### [Backend:](https://github.com/jclairelee/Blog-api)
 
 - mySQL
 - express

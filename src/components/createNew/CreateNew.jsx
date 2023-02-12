@@ -22,10 +22,11 @@ function CreateNew() {
       const formData = new FormData();
       formData.append("file", file);
 
-      const res = await axios.post("http://localhost:8080/upload", formData, {
+      const res = await axios.post("http://localhost:8080/upload/", formData, {
         withCredentials: true,
+        AccessControlAllowOrigin: "*",
       });
-      console.log(res.data);
+
       return res.data;
     } catch (err) {
       console.log(err);
