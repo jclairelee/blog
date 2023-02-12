@@ -132,7 +132,7 @@
 
 ### frontend
 
-8. Install client dependencies:
+7. Install client dependencies:
 
    Run `npm install` from inside the directory.
 
