@@ -72,10 +72,10 @@
 
 ### backend
 
-1. Install server dependencies:
+1. Install dependencies:
 
    ```bash
-   $ npm i dompurify moment react-quill react-router-dom sass axios @mui/material @emotion/react @emotion/styled
+   $ npm i 
    ```
 
 2. Create a new database in MySQL called `localhost`.
@@ -85,10 +85,10 @@
    Create a file`.env` as below:
 
    ```shell
-   DB_LOCAL_DBNAME=<YOUR DB USERNAME>
-   DB_LOCAL_USER=<YOUR USERNAME>
-   DB_LOCAL_PASSWORD=<YOUR PASSWORD>
-   JWT_SECRET_KEY =<YOUR JWT SECRET KEY>
+   DB_LOCAL_DBNAME= <YOUR DB USERNAME>
+   DB_LOCAL_USER= <YOUR USERNAME>
+   DB_LOCAL_PASSWORD= <YOUR PASSWORD>
+   JWT_SECRET_KEY = <YOUR JWT SECRET KEY>
    PORT=8080
    ```
 
@@ -99,10 +99,14 @@
 
 ### frontend
 
-5. Install client dependencies:
+5. Install dependencies:
 
    Run `npm install` from inside the directory.
 
    ```bash
       $ npm i
+   ```
+6. Start the client:
+   ```bash
+   $ npm start
    ```
