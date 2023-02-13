@@ -1,8 +1,6 @@
 # FOOD & LIVING
 
-**_Food and Living is a mini blog web that shares tips and ideas for veriety topics _**
-
-> The purpose of this project is for me to review mySQL database as well as local/session storage.
+**Food and Living is a mini blog web that shares tips and ideas for veriety topics**
 
 [Demo link](https://www.youtube.com/watch?v=D6kEfUurpT8)
 
@@ -82,15 +80,7 @@
 
 2. Create a new database in MySQL called `localhost`.
 
-3. Run migrations
-   ```bash
-   $ npm run migrate
-   ```
-4. Run seeds
-   ```bash
-   $ npm run seed
-   ```
-5. Set environment variables:
+3. Set environment variables:
 
    Create a file`.env` as below:
 
@@ -102,14 +92,14 @@
    PORT=8080
    ```
 
-6. Start the server:
+4. Start the server:
    ```bash
    $ npm start || node index.js
    ```
 
 ### frontend
 
-7. Install client dependencies:
+5. Install client dependencies:
 
    Run `npm install` from inside the directory.
 
